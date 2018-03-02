@@ -1,0 +1,71 @@
+.navkey { font-size: 30; width: 260px; height: 60px; background: black; color: white; margin: 2px; }
+.navkey:hover{background-color: white;
+	color: black;}
+
+
+.key { font-size: 70; width: 100px; height: 80px; background: black; color: white; margin: 2px; }
+
+.navibar {width: 600px;}
+
+input[type=text]{
+    width: 430px;
+    }
+
+.inputnum{font-size: 30;}
+
+.key:hover {
+    background-color: white;
+    color: black;
+}
+
+.keyDC{
+	font-size: 40; width: 140px; height: 70px; background: black; color: white; margin: 5px; 
+}
+
+.keyDC:hover {
+	background-color: white;
+	color: black;
+}
+
+.names{
+	color: white;
+	font-size: 40;
+
+}
+
+
+.AC{
+	font-size: 40;
+	width: 300px; height: 40px; 
+}
+
+.keyAC{
+	font-size:30;
+	width: 200px; height: 60px; background: black; color: white; margin: 5px; 
+}
+
+.keyAC:hover {
+	background-color: white; /* Green */
+	color: black;
+}
+
+.gesture_area{
+	width: 300px; height: 300px;
+	background-color: #4CAF50; /* Green */
+	color: white;
+}
+
+
+
+
+body {background-color: black}
+h1 {color:white; background-color: black}
+a{color:white; font-size:20;}
+p{color: white;font-size:25;}
+
+
+
+
+
+
+

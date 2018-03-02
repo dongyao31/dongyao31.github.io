@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<title>Y</title>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+		<link rel="stylesheet" href="phone.css">
+	</head>
+	<body>
+	
+
+
+	<div class="navibar" id="tab_bar">
+		<button class="key" id="Dialer">Dialer</button>
+		<button class="key" id="ContactList">Contact List</button>
+		<button class="key" id="AddContact">Add Contact</button>
+		<button class="key" id="TestGesture">Test Gesture</button>
+	</div>
+
+
+	<div class="contents" id="content">
+		
+
+		<div class="className" id="contentD">
+			<div class="dialForm" id="dialForm">
+				<h1>Dialer</h1>
+				<form class="pure-form pure-form-stacked">
+					<input type="text" id="numForm" >
+				</form>
+			</div>
+			<div class="keypad" id="keypad">
+				<button class="key" id="k1">1</button>
+				<button class="key" id="k2">2</button>
+				<button class="key" id="k3">3</button>
+			</div>
+			<div class="keypad" id="keypad">
+				<button class="key" id="k4">4</button>
+				<button class="key" id="k5">5</button>
+				<button class="key" id="k6">6</button>
+			</div>
+			<div class="keypad" id="keypad">
+				<button class="key" id="k7">7</button>
+				<button class="key" id="k8">8</button>
+				<button class="key" id="k9">9</button>
+			</div>
+			<div class="keypad" id="keypad">
+				<button class="key" id="kstar">*</button>
+				<button class="key" id="k0">0</button>
+				<button class="key" id="kpound">#</button>
+			</div>
+			<div class="DC" id="DC">
+				<button class="keyDC" id="kD">Dial</button>
+				<button class="keyDC" id="kC">Clear</button>
+			</div>
+		</div>
+
+		<div class="className" id="contentC">
+			<h1>Contact List</h1>
+			<div>
+				<p class=names style="display:inline">Robert Drake</p>
+				<p class=names style="display:inline">Emma Frost</p>
+				<p class=names style="display:inline">Doreen Green</p>
+				<p></p>
+			</div>
+			<div>
+				<p class=names style="display:inline">Jean Grey</p>
+				<p class=names style="display:inline">James Howlett</p>
+				<p class=names style="display:inline">Ororo Munroe</p>
+				<p></p>
+			</div>
+			<div>
+				<p class=names style="display:inline">Katherine Pryde</p>
+				<p class=names style="display:inline">Piotr Rasputin</p>
+				<p class=names style="display:inline">Scott Summers</p>
+				<p></p>
+			</div>
+		</div>
+		
+
+		<div class="className" id="contentA">
+			<h1>Add Contact</h1>
+			<form class="pure-form pure-form-stacked">
+	  			<label for="name">Name</label>
+	  			<input class = AC id="name" placeholder="Jane Smith">
+	  			<label for="name">Phone number</label>
+	  			<input class = AC id="name" placeholder="123-456-789">
+	  			<label for="name">Email adress</label>
+	  			<input class = AC id="name" placeholder="jane.smith@colorado.edu">
+			</form>
+			<button class="keyAC" id="AddContact1">Add Contact</button>
+			<button class="keyAC" id="AddContact2">Clear</button>
+		</div>
+
+
+		<div class="className" id="contentT">
+			<h1>Gesture Practice</h1>
+			<form class="pure-form pure-form-stacked">
+				<input type="text" id="gesture_output" >
+			</form>
+			<div class='gesture_area' id='gesture_area'>
+				
+			</div>
+
+
+		</div>
+
+
+
+
+	</div>
+	
+
+	<a href="index-large.html">Link to large index</a>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="phone.js"></script>
+
+	</body>
+</html>
